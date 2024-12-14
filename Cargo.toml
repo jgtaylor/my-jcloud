@@ -1,0 +1,17 @@
+[package]
+name = "my-jcloud"
+version = "0.1.0"
+authors = ["Joshua Taylor <sonicbphuct@gmail.com>"]
+edition = "2021"
+description = "WebDAV-style file manager using Actix-Web"
+license = "MIT"
+repository = ""
+
+[dependencies]
+actix-web = "4.0"
+actix-files = "0.6"
+env_logger = "0.10"
+walkdir = "2.4.0"
+mime_guess = "2.0.4"
+serde = { version = "1.0", features = ["derive"] }
+futures-util = "0.3.31"

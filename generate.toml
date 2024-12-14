@@ -1,0 +1,8 @@
+name = "actix-webdav-template"
+description = "A template for creating a WebDAV-style file manager with Actix-Web"
+version = "0.1.0"
+
+[placeholders]
+authors = { type = "string", prompt = "Enter your name" }
+repository = { type = "string", prompt = "Enter the repository URL" }
+default-web-root = { type = "string", prompt = "Default root directory", default = "/home/jgtaylor" }
